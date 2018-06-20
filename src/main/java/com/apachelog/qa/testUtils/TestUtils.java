@@ -50,29 +50,25 @@ public class TestUtils extends TestBase {
         	      System.err.println(logEntryLine);
         	      return ;
         	    }
-         // System.out.println(logEntryLine); 
-          	//System.out.println("IP Address: " + matcher.group(1));
+        
           	hostName.add(matcher.group(1));
             
-           // System.out.println("Date&Time: " + matcher.group(4));
+           
           	reqTime.add(matcher.group(4));
             
-           // System.out.println("Request: " + matcher.group(5));
+          
           	clientReqLine.add(matcher.group(5));
             
-           // System.out.println("Response: " + matcher.group(6));
+           
           	http_StatusCode.add(matcher.group(6));
             
-           // System.out.println("Bytes Sent: " + matcher.group(7));
-          	byte_Received.add(matcher.group(7));
-            
-           // System.out.println(numOfBytes.toString());
-           // return ;
           
+          	byte_Received.add(matcher.group(7));
+           
       
-          }//end of while loop
+          }//end of inner while loop
          
-	 }
+	 }//end of outer while loop
 	
 	 
 	}

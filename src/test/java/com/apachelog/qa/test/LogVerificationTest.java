@@ -20,18 +20,12 @@ import org.testng.annotations.Test;
 import com.apachelog.qa.base.TestBase;
 import com.apachelog.qa.methoddef.LogVerification;
 
-//import junit.framework.Assert;
-
 public class LogVerificationTest extends TestBase {
 
-	
-	
 	public  LogVerification logverification;
-	//Logger log = Logger.getLogger(LogVerificationTest.class);
 	public LogVerificationTest(){
 		super();
 		initilization();
-		
 		
 	}
 	
@@ -48,8 +42,7 @@ public class LogVerificationTest extends TestBase {
 			+ "For Detailed logs please refer Reporter Output Log")
 	public void smallResposeTest()
 	{
-		//extentreportng.test.log(LogStatus.INFO , "Test is started");
-		//
+		
 		int big_res_count = logverification.getResposeByte();
 		boolean flag = true;
 		

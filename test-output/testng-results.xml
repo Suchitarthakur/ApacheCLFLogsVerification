@@ -2,904 +2,89 @@
 <testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** All Responses are below 100000 **********]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 138789 at line number :79 **********
+      <![CDATA[********** Received 401 from : nx2.example.org at line number :24 in log
+Failed to feed Rover due to Unautorized access **********
 ]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114241 at line number :85 **********
+      <![CDATA[********** Received 401 from : nx1.example.org at line number :32 in log
+Failed to feed Rover due to Unautorized access **********
 ]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 96 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 101445 at line number :145 **********
+      <![CDATA[************Test Case "Put before Post " is NOT GOOD As PUT is found after POST in request : PUT /articles/5678 HTTP/1.1 at line number : 6 in given log
+ Respective POST request is : POST /articles/5678 HTTP/1.1 at line number :4 in given log******************
 ]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 108162 at line number :185 **********
+      <![CDATA[||***************Test Case "Put before Post " is GOOD for given Request line As Put is found before POST in request : PUT /articles/1234 HTTP/1.1 at line number : 3 in given log
+ Respective Post request is : POST /articles/1234 HTTP/1.1 at line number : 10 in given log***************||
 ]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 101279 at line number :234 **********
-]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1 from client host :1.2.3.4 **********]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 102399 at line number :256 **********
-]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 9 from client host :company.com **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 343 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 13 from client host :company.com **********]]>
     </line>
     <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114167 at line number :353 **********
-]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 19 from client host :company.com **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 367 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 24 from client host :nx2.example.org **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 421 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 32 from client host :nx1.example.org **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 423 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 37 from client host :1.2.3.4 **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 435 in given log can not be considerd for this Test Case **********||]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 41 from client host :1.2.3.4 **********]]>
     </line>
     <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 446 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 457 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 475 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 476 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 521 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 532 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 547 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 102154 at line number :680 **********
-]]>
-    </line>
-    <line>
-      <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114220 at line number :684 **********
-]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 787 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 789 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 791 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 793 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 795 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 797 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 798 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 801 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 806 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 849 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 852 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 854 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 858 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 864 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 875 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 907 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 910 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 911 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 912 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 921 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 937 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 938 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 939 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 997 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1019 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1029 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1041 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1043 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1074 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1075 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1076 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1088 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1089 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1090 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1095 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1097 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1100 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1101 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1102 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1104 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1105 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1106 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1108 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1109 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1110 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1112 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1113 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1114 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1116 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1117 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1118 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1120 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1121 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1122 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1124 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1125 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1126 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1128 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1129 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1130 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1132 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1133 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1134 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1136 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1137 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1138 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1140 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1141 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1142 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1144 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1145 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1146 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1148 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1149 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1150 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1152 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1153 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1154 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1156 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1157 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1158 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1160 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1161 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1162 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1164 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1165 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1166 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1167 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1168 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1169 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1172 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1173 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1174 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1176 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1177 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1178 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1179 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1182 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1183 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1184 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1187 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1213 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1292 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1294 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1296 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1298 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1300 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1303 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1319 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1321 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1324 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1327 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1345 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1346 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1347 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1402 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1403 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1404 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1423 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1425 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1427 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1437 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1492 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1497 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1522 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1532 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[********** No "*.example.org" found in given log **********]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING REQUEST LINE at line number 1 in given log cant be considered for Test case **********||]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 162]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 163]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING REQUEST LINE at line number 907 in given log cant be considered for Test case **********||]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 944]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 945]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 946]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1072]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1077]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1111]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/ppwc/ppwctwentynine@shaw.com HTTP/1.1 at line : 1127]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members?letter=p HTTP/1.1 at line : 1143]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members/add HTTP/1.1 at line : 1159]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members?letter=p HTTP/1.1 at line : 1171]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admindb/ppwc HTTP/1.1 at line : 1348]]>
-    </line>
-    <line>
-      <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admindb/ppwc HTTP/1.1 at line : 1349]]>
-    </line>
-    <line>
-      <![CDATA[||********** A "-" in a field indicates missing data. Requset containing MISSING  HTTP STATUS CODE  at line number 1 in given log can not be considerd for this Test Case **********||]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 8 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 9 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 12 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 18 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 23 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 31 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 36 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 40 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 43 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 52 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 53 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 58 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 62 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 68 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 72 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 75 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 78 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 81 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 83 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 86 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 90 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 93 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 94 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 95 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 104 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 107 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 108 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 110 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 111 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 113 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 119 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 122 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 134 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 137 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 140 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 143 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 148 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 150 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 151 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 153 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 156 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 165 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 168 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 171 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 186 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 191 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 196 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 201 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 209 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 212 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 221 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 226 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 232 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 235 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 238 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 246 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 257 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 264 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 280 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 281 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 284 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 287 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 292 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 293 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 306 from client host :prxint-sxb3.e-i.net **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 309 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 312 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 313 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 328 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 331 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 335 from client host :p213.54.168.132.tisdip.tiscali.de **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 339 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 342 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 349 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 351 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 355 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 360 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 363 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 369 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 373 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 376 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 385 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 387 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 390 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 397 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 402 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 403 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 437 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 459 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 500 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 503 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 509 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 511 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 531 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 549 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 556 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 559 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 573 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 574 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 575 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 576 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 597 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 632 from client host :market-mail.panduit.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 639 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 641 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 644 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 651 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 652 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 654 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 657 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 658 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 663 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 673 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 681 from client host :64.242.88.10 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 764 from client host :195.246.13.119 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 855 from client host :207.195.59.160 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1357 from client host :cr020r01-3.sac.overture.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1373 from client host :cr020r01-3.sac.overture.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1374 from client host :cr020r01-3.sac.overture.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1375 from client host :cr020r01-3.sac.overture.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1381 from client host :cr020r01-3.sac.overture.com **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1382 from client host :cr020r01-3.sac.overture.com **********]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 44 from client host :4.3.2.1 **********]]>
     </line>
   </reporter-output>
-  <suite name="Log Verification Test" duration-ms="101" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+  <suite name="Log Verification Test" duration-ms="82" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
     <groups>
     </groups>
-    <test name="Log Verification Test Cases" duration-ms="101" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+    <test name="Log Verification Test Cases" duration-ms="82" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
       <class name="com.apachelog.qa.test.LogVerificationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="11" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="11" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="smallResposeTest()[pri:1, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="smallResposeTest" duration-ms="22" started-at="2018-06-20T10:20:43Z" description="This Test Case is used to find Response Byte received from server. Each Response byte in given log should be less than 100000 byte. This Test case will FAIL if any one or More Response byte will be greater than 100000 bytes.For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="smallResposeTest()[pri:1, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="smallResposeTest" duration-ms="6" started-at="2018-06-20T12:34:24Z" description="This Test Case is used to find Response Byte received from server. Each Response byte in given log should be less than 100000 byte. This Test case will FAIL if any one or More Response byte will be greater than 100000 bytes.For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T12:34:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[********** All Responses are below 100000 **********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smallResposeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="authorizedAccessTest()[pri:2, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="authorizedAccessTest" duration-ms="5" started-at="2018-06-20T12:34:24Z" description="This Test is used to check any Unauthorized access (401) from site ***.example.org. Test case will fail only if 401 found from site ***.example.org in given log. In all other condition Test Case will PASS. For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T12:34:24Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Total 9 Number of response size is greater than 100000 byte in given log. Check Reporter Output for more info expected [true] but found [false]]]>
+              <![CDATA[Total 2 401 found from site ***.example.org . Failed to feed Rover. For detailed logs and information Please refer Reporter output log in TestNG report expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Total 9 Number of response size is greater than 100000 byte in given log. Check Reporter Output for more info expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Total 2 401 found from site ***.example.org . Failed to feed Rover. For detailed logs and information Please refer Reporter output log in TestNG report expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.smallResposeTest(LogVerificationTest.java:59)
+at com.apachelog.qa.test.LogVerificationTest.authorizedAccessTest(LogVerificationTest.java:77)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -930,487 +115,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 138789 at line number :79 **********
+              <![CDATA[********** Received 401 from : nx2.example.org at line number :24 in log
+Failed to feed Rover due to Unautorized access **********
 ]]>
             </line>
             <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114241 at line number :85 **********
+              <![CDATA[********** Received 401 from : nx1.example.org at line number :32 in log
+Failed to feed Rover due to Unautorized access **********
 ]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 96 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 101445 at line number :145 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 108162 at line number :185 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 101279 at line number :234 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 102399 at line number :256 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 343 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114167 at line number :353 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 367 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 421 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 423 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 435 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 446 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 457 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 475 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 476 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 521 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 532 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 547 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 102154 at line number :680 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[********** Response Byte greater than 100000 found : Response byte size = 114220 at line number :684 **********
-]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 787 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 789 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 791 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 793 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 795 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 797 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 798 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 801 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 806 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 849 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 852 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 854 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 858 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 864 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 875 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 907 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 910 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 911 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 912 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 921 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 937 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 938 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 939 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 997 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1019 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1029 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1041 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1043 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1074 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1075 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1076 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1088 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1089 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1090 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1095 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1097 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1100 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1101 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1102 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1104 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1105 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1106 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1108 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1109 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1110 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1112 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1113 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1114 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1116 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1117 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1118 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1120 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1121 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1122 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1124 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1125 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1126 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1128 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1129 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1130 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1132 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1133 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1134 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1136 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1137 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1138 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1140 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1141 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1142 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1144 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1145 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1146 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1148 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1149 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1150 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1152 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1153 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1154 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1156 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1157 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1158 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1160 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1161 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1162 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1164 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1165 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1166 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1167 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1168 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1169 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1172 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1173 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1174 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1176 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1177 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1178 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1179 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1182 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1183 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1184 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1187 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1213 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1292 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1294 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1296 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1298 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1300 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1303 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1319 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1321 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1324 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1327 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1345 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1346 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1347 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1402 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1403 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1404 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1423 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1425 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1427 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1437 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1492 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1497 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1522 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1532 in given log can not be considerd for this Test Case **********||]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- smallResposeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="authorizedAccessTest()[pri:2, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="authorizedAccessTest" duration-ms="6" started-at="2018-06-20T10:20:43Z" description="This Test is used to check any Unauthorized access (401) from site ***.example.org. Test case will fail only if 401 found from site ***.example.org in given log. In all other condition Test Case will PASS. For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T10:20:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[********** No "*.example.org" found in given log **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- authorizedAccessTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="putBeforePostTest()[pri:3, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="putBeforePostTest" duration-ms="10" started-at="2018-06-20T10:20:43Z" description="This Test case is designed to check &quot;All POST requests to a path need to come after the PUT request for that path&quot;.The Test case will FAIL if 1) PUT request comes after POST for any given PATH for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For all all other conditions Test Case will PASS and print logs in Reporter Logs.For more Detailed log, Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="FAIL" signature="putBeforePostTest()[pri:3, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="putBeforePostTest" duration-ms="1" started-at="2018-06-20T12:34:24Z" description="This Test case is designed to check &quot;All POST requests to a path need to come after the PUT request for that path&quot;.The Test case will FAIL if 1) PUT request comes after POST for any given PATH for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For all all other conditions Test Case will PASS and print logs in Reporter Logs.For more Detailed log, Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T12:34:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failure Reason may be either of two.1) PUT to a given path observed after POST to a given path for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For more Details Please refer Reporter Output log in TestNG Report expected [true] but found [false]]]>
@@ -1422,7 +150,7 @@ at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.putBeforePostTest(LogVerificationTest.java:101)
+at com.apachelog.qa.test.LogVerificationTest.putBeforePostTest(LogVerificationTest.java:94)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1453,74 +181,36 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING REQUEST LINE at line number 1 in given log cant be considered for Test case **********||]]>
+              <![CDATA[************Test Case "Put before Post " is NOT GOOD As PUT is found after POST in request : PUT /articles/5678 HTTP/1.1 at line number : 6 in given log
+ Respective POST request is : POST /articles/5678 HTTP/1.1 at line number :4 in given log******************
+]]>
             </line>
             <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 162]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 163]]>
-            </line>
-            <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Request containing MISSING REQUEST LINE at line number 907 in given log cant be considered for Test case **********||]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 944]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 945]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 946]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1072]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1077]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc HTTP/1.1 at line : 1111]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/options/ppwc/ppwctwentynine@shaw.com HTTP/1.1 at line : 1127]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members?letter=p HTTP/1.1 at line : 1143]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members/add HTTP/1.1 at line : 1159]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admin/ppwc/members?letter=p HTTP/1.1 at line : 1171]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admindb/ppwc HTTP/1.1 at line : 1348]]>
-            </line>
-            <line>
-              <![CDATA[*********** No PUT method found before OR after POST method in log for request POST /mailman/admindb/ppwc HTTP/1.1 at line : 1349]]>
+              <![CDATA[||***************Test Case "Put before Post " is GOOD for given Request line As Put is found before POST in request : PUT /articles/1234 HTTP/1.1 at line number : 3 in given log
+ Respective Post request is : POST /articles/1234 HTTP/1.1 at line number : 10 in given log***************||
+]]>
             </line>
           </reporter-output>
         </test-method> <!-- putBeforePostTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="suspiciousActivityTest()[pri:4, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="suspiciousActivityTest" duration-ms="7" started-at="2018-06-20T10:20:43Z" description="This Test case is designed to check &quot;The log must have less than five 401 responses from any host.&quot; The Test case will FAIL if count of 401 Response CODE exceeds FIVE from any HOST in given log. For Detailed log ,Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="FAIL" signature="suspiciousActivityTest()[pri:4, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="suspiciousActivityTest" duration-ms="1" started-at="2018-06-20T12:34:24Z" description="This Test case is designed to check &quot;The log must have less than five 401 responses from any host.&quot; The Test case will FAIL if count of 401 Response CODE exceeds FIVE from any HOST in given log. For Detailed log ,Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T12:34:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Count for 401 staus code in given log is greater than 4.
- Actual is :122 Expected is less than : 5 expected [false] but found [true]]]>
+ Actual is :9 Expected is less than : 5 expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Count for 401 staus code in given log is greater than 4.
- Actual is :122 Expected is less than : 5 expected [false] but found [true]
+ Actual is :9 Expected is less than : 5 expected [false] but found [true]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest(LogVerificationTest.java:119)
+at com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest(LogVerificationTest.java:112)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1551,381 +241,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[||********** A "-" in a field indicates missing data. Requset containing MISSING  HTTP STATUS CODE  at line number 1 in given log can not be considerd for this Test Case **********||]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1 from client host :1.2.3.4 **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 8 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 9 from client host :company.com **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 9 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 13 from client host :company.com **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 12 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 19 from client host :company.com **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 18 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 24 from client host :nx2.example.org **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 23 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 32 from client host :nx1.example.org **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 31 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 37 from client host :1.2.3.4 **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 36 from client host :64.242.88.10 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 41 from client host :1.2.3.4 **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 40 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 43 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 52 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 53 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 58 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 62 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 68 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 72 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 75 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 78 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 81 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 83 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 86 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 90 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 93 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 94 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 95 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 104 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 107 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 108 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 110 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 111 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 113 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 119 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 122 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 134 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 137 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 140 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 143 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 148 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 150 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 151 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 153 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 156 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 165 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 168 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 171 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 186 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 191 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 196 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 201 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 209 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 212 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 221 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 226 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 232 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 235 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 238 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 246 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 257 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 264 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 280 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 281 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 284 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 287 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 292 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 293 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 306 from client host :prxint-sxb3.e-i.net **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 309 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 312 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 313 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 328 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 331 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 335 from client host :p213.54.168.132.tisdip.tiscali.de **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 339 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 342 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 349 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 351 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 355 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 360 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 363 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 369 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 373 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 376 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 385 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 387 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 390 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 397 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 402 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 403 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 437 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 459 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 500 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 503 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 509 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 511 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 531 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 549 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 556 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 559 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 573 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 574 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 575 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 576 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 597 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 632 from client host :market-mail.panduit.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 639 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 641 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 644 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 651 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 652 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 654 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 657 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 658 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 663 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 673 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 681 from client host :64.242.88.10 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 764 from client host :195.246.13.119 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 855 from client host :207.195.59.160 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1357 from client host :cr020r01-3.sac.overture.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1373 from client host :cr020r01-3.sac.overture.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1374 from client host :cr020r01-3.sac.overture.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1375 from client host :cr020r01-3.sac.overture.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1381 from client host :cr020r01-3.sac.overture.com **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 1382 from client host :cr020r01-3.sac.overture.com **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 44 from client host :4.3.2.1 **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- suspiciousActivityTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T10:20:43Z" finished-at="2018-06-20T10:20:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-20T12:34:24Z" finished-at="2018-06-20T12:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

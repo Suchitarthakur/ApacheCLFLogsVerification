@@ -35,7 +35,7 @@ public class LogVerification extends TestBase{
     		try {
 				if (Integer.parseInt(bytesReceived.get(Loop_var_Req_Line_No)) >= 100000) {
 					Big_Res_Byte_Count = Big_Res_Byte_Count + 1;
-					//line = Loop_var_Req_Line_No +1;
+					
 					Reporter.log("********** Response Byte greater than 100000 found :" + " Response byte size = "
 							+ bytesReceived.get(Loop_var_Req_Line_No) + " at line" + " number :"
 							+ (Loop_var_Req_Line_No + 1) + " **********\n");
@@ -64,7 +64,7 @@ public class LogVerification extends TestBase{
 	{
 		
 		int global_http_status_code_401_count=0,Request_line_no=0,global_matching_request_count=0;
-		//List<Integer> httpStatusCode = TestUtils.gethttpStatusCode();
+		
 		
 		for(Request_line_no=0;Request_line_no<host.size();Request_line_no++)
      	{
@@ -76,7 +76,7 @@ public class LogVerification extends TestBase{
 					if(Integer.parseInt(httpStatusCode.get(Request_line_no)) == 401)
 					{
 					global_http_status_code_401_count = global_http_status_code_401_count+1;
-					//int line = Request_line_no+1;
+					
 					Reporter.log("********** Received 401 from : " +
 							host.get(Request_line_no).toString() + " at line number :" + (Request_line_no+1) +" in "
 							+ "log\nFailed to feed Rover due to Unautorized access **********\n");
@@ -125,8 +125,7 @@ public class LogVerification extends TestBase{
 		int downstream_loop = 0;
 		int global_put_after_post_found = 0;
 		int global_no_put_found_after_post = 0;
-		//List<String> clientRequest = TestUtils.getclientRequest();
-		//put before post POST /articles/5678 HTTP/1.1
+		
 		
      	for(Request_line_num=0;Request_line_num<requestLine.size();Request_line_num++) /* to find post Request in given log*/
      	{
@@ -137,7 +136,7 @@ public class LogVerification extends TestBase{
      		if(requestLine.get(Request_line_num).substring(0,requestLine.get(Request_line_num).indexOf(' ')).equals("POST"))
      		{
      			
-     			//local_post_found_in_script=1;
+     			
      			global_post_found_in_script = global_post_found_in_script+1;
      			int startIndex = requestLine.get(Request_line_num).indexOf(' ');
          		int endIndex = requestLine.get(Request_line_num).indexOf(" H");
@@ -160,7 +159,7 @@ public class LogVerification extends TestBase{
          							break;
          					}
          			
-         				}//eo for
+         				}//end of inner for Loop_var_upstream
          			
          			if(upstream_loop == 0)//to check if PUT is after POST in log.upstream_loop=0 means put is not found before post
          			{
@@ -177,7 +176,7 @@ public class LogVerification extends TestBase{
          						global_put_after_post_found = global_put_after_post_found+1;
          						
          						break;
-         					}	
+         					}	//end of inner for Loop_var_downstream
          						
          				}
          				if((downstream_loop == 0) && (upstream_loop == 0))
@@ -191,24 +190,16 @@ public class LogVerification extends TestBase{
          				/*after for loop if no put is found change upstream_loop value*/
          				/*upstream_loop = 2;*/
          			}
-         			//else 
-         			//{
-         			//	Reporter.log("*********** No PUT method found before OR after POST method in log for request : "+clientRequest.get(Request_line_num).toString()+
-         				//		"at line number " + (Request_line_num+1));
-         			//	upstream_loop =2;
-         				
-         			//}
+         			
          		}	
          		else
          		{
          			Reporter.log("********** Post is found at line number 0, No put before Post for requset : " 
          		+requestLine.get(Request_line_num) +" **********" );
          		}
-         		//System.out.println("" + String_Request_url);
-         		//else
-         			//Reporter.log("No Post or PUT Method found in log");
+         		
          			
-     		}//end of main if loop
+     		}//end of main(first) if loop
      		}
      		catch(Exception e)
      		{
@@ -221,11 +212,9 @@ public class LogVerification extends TestBase{
      					+ (Request_line_num+1)+" in given log cant be considered for Test case **********||");
      		}
      					
-     	}//end of main for loop
+     	}//end of main (first )for loop
      	
-     
-     /*if(upstream_loop == 2)
-    	 Reporter.log("*********** No PUT method found before OR after POST method in log");*/
+  
     	    	 
      if(global_post_found_in_script==0 && Request_line_num==requestLine.size())
   			Reporter.log("No POST method found in given log");
@@ -246,9 +235,7 @@ public class LogVerification extends TestBase{
 	public int checkSuspiciousActivity()
 	{
 		int global_httpStatusCode_401_count =0,Request_line_no=0;
-		//List<String> clientHost = TestUtils.getclientHost();
 		
-		//List<Integer> httpStatusCode = TestUtils.gethttpStatusCode();
 	
 	for(Request_line_no =0;Request_line_no<host.size();Request_line_no++)
  	{

@@ -6,10 +6,10 @@
       <class name="com.apachelog.qa.test.LogVerificationTest">
         <methods>
           <include name="putBeforePostTest"/>
-          <include name="smallResposeTest"/>
           <include name="setUp"/>
           <include name="suspiciousActivityTest"/>
           <include name="tearDown"/>
+          <include name="authorizedAccessTest"/>
         </methods>
       </class> <!-- com.apachelog.qa.test.LogVerificationTest -->
     </classes>

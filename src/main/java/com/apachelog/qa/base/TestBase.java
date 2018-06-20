@@ -31,9 +31,6 @@ public class TestBase {
 	
 	public static String logPattern = "^([\\d\\D.]+) (\\S+) (\\S+) \\[([\\w:/]+\\s[+\\-]\\d{4})\\] \"(.+?)\" ([\\d\\D]+) ([\\d\\D]+)";
 	
-	//back up //public static String logEntryPattern = "^([\\d\\D.]+) (\\S+) (\\S+) \\[([\\w:/]+\\s[+\\-]\\d{4})\\] \"(.+?)\" ([\\d\\D]+) ([\\d\\D]+)";
-	
-	
 	
 	public static String filepath = "";
 	
@@ -61,11 +58,7 @@ public class TestBase {
 		host = TestUtils.getclientHost();
 		httpStatusCode = TestUtils.gethttpStatusCode();
 		requestLine = TestUtils.getclientRequest();
-		//System.out.println("size of file " +numOfBytes.size());
 		
-		//System.out.println("Requset " +clientHost.toString());
-		
-		//System.out.println("clientRequest " +clientRequest.toString());
 	}
 	
 		
