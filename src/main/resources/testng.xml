@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Log Verification Test">
+<test name="Log Verification Test Cases">
+		<classes>
+			<class name="com.apachelog.qa.test.LogVerificationTest"></class>
+		</classes>
+	</test>
+</suite>

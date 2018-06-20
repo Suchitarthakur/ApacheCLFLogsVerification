@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Log Verification Test]">
+  <test thread-count="5" name="Log Verification Test Cases(failed)">
+    <classes>
+      <class name="com.apachelog.qa.test.LogVerificationTest">
+        <methods>
+          <include name="putBeforePostTest"/>
+          <include name="smallResposeTest"/>
+          <include name="setUp"/>
+          <include name="suspiciousActivityTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.apachelog.qa.test.LogVerificationTest -->
+    </classes>
+  </test> <!-- Log Verification Test Cases(failed) -->
+</suite> <!-- Failed suite [Log Verification Test] -->
