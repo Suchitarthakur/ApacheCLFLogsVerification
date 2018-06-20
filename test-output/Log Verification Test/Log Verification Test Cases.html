@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jun 20 15:00:06 IST 2018</td>
+<td>Started on:</td><td>Wed Jun 20 15:50:43 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (111 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (101 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.apachelog.qa.test.LogVerificationTest.putBeforePostTest()'><b>putBeforePostTest</b><br>Test class: com.apachelog.qa.test.LogVerificationTest<br>Test method: This Test case is designed to check "All POST requests to a path need to come after the PUT request for that path".The Test case will FAIL if 1) PUT request comes after POST for any given PATH for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For all all other conditions Test Case will PASS and print logs in Reporter Logs.For more Detailed log, Please refer Reporter Output log in TestNG Report<br/>
-<a href="#Output-1554358" onClick='toggleBox("Output-1554358", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-29856341" onClick='toggleBox("Output-29856341", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1554358" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1554358">
+<a href="#Output-29856341" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29856341">
 ||********** A "-" in a field indicates missing data. Request containing MISSING REQUEST LINE at line number 1 in given log cant be considered for Test case **********||<br/>
 *********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 162<br/>
 *********** No PUT method found before OR after POST method in log for request POST /mailman/options/cnc_notice HTTP/1.1 at line : 163<br/>
@@ -100,8 +100,8 @@ function toggleAllBoxes() {
 </td>
 <td><div><pre>java.lang.AssertionError: Failure Reason may be either of two.1) PUT to a given path observed after POST to a given path for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For more Details Please refer Reporter Output log in TestNG Report expected [true] but found [false]
 	at com.apachelog.qa.test.LogVerificationTest.putBeforePostTest(LogVerificationTest.java:101)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1554358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1554358'><pre>java.lang.AssertionError: Failure Reason may be either of two.1) PUT to a given path observed after POST to a given path for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For more Details Please refer Reporter Output log in TestNG Report expected [true] but found [false]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29856341", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29856341'><pre>java.lang.AssertionError: Failure Reason may be either of two.1) PUT to a given path observed after POST to a given path for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For more Details Please refer Reporter Output log in TestNG Report expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -135,13 +135,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.apachelog.qa.test.LogVerificationTest@a3ffec</td></tr>
+<td>com.apachelog.qa.test.LogVerificationTest@be2bc2</td></tr>
 <tr>
 <td title='com.apachelog.qa.test.LogVerificationTest.smallResposeTest()'><b>smallResposeTest</b><br>Test class: com.apachelog.qa.test.LogVerificationTest<br>Test method: This Test Case is used to find Response Byte received from server. Each Response byte in given log should be less than 100000 byte. This Test case will FAIL if any one or More Response byte will be greater than 100000 bytes.For Detailed logs please refer Reporter Output Log<br/>
-<a href="#Output-17319689" onClick='toggleBox("Output-17319689", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-21308408" onClick='toggleBox("Output-21308408", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-17319689" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-17319689">
+<a href="#Output-21308408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21308408">
 ||********** A "-" in a field indicates missing data. Request containing MISSING RESPONSE BYTE at line number 1 in given log can not be considerd for this Test Case **********||<br/>
 ********** Response Byte greater than 100000 found : Response byte size = 138789 at line number :79 **********
 <br/>
@@ -304,8 +304,8 @@ function toggleAllBoxes() {
 </td>
 <td><div><pre>java.lang.AssertionError: Total 9 Number of response size is greater than 100000 byte in given log. Check Reporter Output for more info expected [true] but found [false]
 	at com.apachelog.qa.test.LogVerificationTest.smallResposeTest(LogVerificationTest.java:59)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17319689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace17319689'><pre>java.lang.AssertionError: Total 9 Number of response size is greater than 100000 byte in given log. Check Reporter Output for more info expected [true] but found [false]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace21308408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace21308408'><pre>java.lang.AssertionError: Total 9 Number of response size is greater than 100000 byte in given log. Check Reporter Output for more info expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -339,13 +339,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.apachelog.qa.test.LogVerificationTest@a3ffec</td></tr>
+<td>com.apachelog.qa.test.LogVerificationTest@be2bc2</td></tr>
 <tr>
 <td title='com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest()'><b>suspiciousActivityTest</b><br>Test class: com.apachelog.qa.test.LogVerificationTest<br>Test method: This Test case is designed to check "The log must have less than five 401 responses from any host." The Test case will FAIL if count of 401 Response CODE exceeds FIVE from any HOST in given log. For Detailed log ,Please refer Reporter Output log in TestNG Report<br/>
-<a href="#Output-21880137" onClick='toggleBox("Output-21880137", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-15088350" onClick='toggleBox("Output-15088350", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-21880137" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-21880137">
+<a href="#Output-15088350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15088350">
 ||********** A "-" in a field indicates missing data. Requset containing MISSING  HTTP STATUS CODE  at line number 1 in given log can not be considerd for this Test Case **********||<br/>
 ********** httpStatusCode : 401 found in given log at line number : 8 from client host :64.242.88.10 **********<br/>
 ********** httpStatusCode : 401 found in given log at line number : 9 from client host :64.242.88.10 **********<br/>
@@ -474,8 +474,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: Count for 401 staus code in given log is greater than 4.
  Actual is :122 Expected is less than : 5 expected [false] but found [true]
 	at com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest(LogVerificationTest.java:119)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace21880137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace21880137'><pre>java.lang.AssertionError: Count for 401 staus code in given log is greater than 4.
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace15088350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace15088350'><pre>java.lang.AssertionError: Count for 401 staus code in given log is greater than 4.
  Actual is :122 Expected is less than : 5 expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -510,7 +510,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.apachelog.qa.test.LogVerificationTest@a3ffec</td></tr>
+<td>com.apachelog.qa.test.LogVerificationTest@be2bc2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -521,16 +521,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.apachelog.qa.test.LogVerificationTest.authorizedAccessTest()'><b>authorizedAccessTest</b><br>Test class: com.apachelog.qa.test.LogVerificationTest<br>Test method: This Test is used to check any Unauthorized access (401) from site ***.example.org. Test case will fail only if 401 found from site ***.example.org in given log. In all other condition Test Case will PASS. For Detailed logs please refer Reporter Output Log<br/>
-<a href="#Output-18897540" onClick='toggleBox("Output-18897540", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-28074779" onClick='toggleBox("Output-28074779", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-18897540" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-18897540">
+<a href="#Output-28074779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28074779">
 ********** No "*.example.org" found in given log **********<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.apachelog.qa.test.LogVerificationTest@a3ffec</td></tr>
+<td>com.apachelog.qa.test.LogVerificationTest@be2bc2</td></tr>
 </table><p>
 </body>
 </html>
