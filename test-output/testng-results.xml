@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
     <line>
       <![CDATA[********** All Responses are below 100000 **********]]>
     </line>
     <line>
-      <![CDATA[********** Received 401 from : nx2.example.org at line number :24 in log
-Failed to feed Rover due to Unautorized access **********
-]]>
-    </line>
-    <line>
-      <![CDATA[********** Received 401 from : nx1.example.org at line number :32 in log
-Failed to feed Rover due to Unautorized access **********
-]]>
+      <![CDATA[********** All access are authorized form and No 401 code was found in the given log from host "*.example.org" **********]]>
     </line>
     <line>
       <![CDATA[************Test Case "Put before Post " is NOT GOOD As PUT is found after POST in request : PUT /articles/5678 HTTP/1.1 at line number : 6 in given log
@@ -37,104 +30,49 @@ Failed to feed Rover due to Unautorized access **********
       <![CDATA[********** httpStatusCode : 401 found in given log at line number : 19 from client host :company.com **********]]>
     </line>
     <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 24 from client host :nx2.example.org **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 32 from client host :nx1.example.org **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 37 from client host :1.2.3.4 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 41 from client host :1.2.3.4 **********]]>
-    </line>
-    <line>
-      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 44 from client host :4.3.2.1 **********]]>
+      <![CDATA[********** httpStatusCode : 401 found in given log at line number : 22 from client host :1.2.3.4 **********]]>
     </line>
   </reporter-output>
-  <suite name="Log Verification Test" duration-ms="78" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+  <suite name="Log Verification Test" duration-ms="78" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
     <groups>
     </groups>
-    <test name="Log Verification Test Cases" duration-ms="78" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+    <test name="Log Verification Test Cases" duration-ms="78" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
       <class name="com.apachelog.qa.test.LogVerificationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="10" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="10" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="smallResposeTest()[pri:1, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="smallResposeTest" duration-ms="6" started-at="2018-06-20T13:03:13Z" description="This Test Case is used to find Response Byte received from server. Each Response byte in given log should be less than 100000 byte. This Test case will FAIL if any one or More Response byte will be greater than 100000 bytes.For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="smallResposeTest()[pri:1, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="smallResposeTest" duration-ms="6" started-at="2018-06-21T16:20:53Z" description="This Test Case is used to find Response Byte received from server. Each Response byte in given log should be less than 100000 byte. This Test case will FAIL if any one or More Response byte will be greater than 100000 bytes.For Detailed logs please refer Reporter Output Log" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
             <line>
               <![CDATA[********** All Responses are below 100000 **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- smallResposeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="authorizedAccessTest()[pri:2, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="authorizedAccessTest" duration-ms="5" started-at="2018-06-20T13:03:13Z" description="This Test is used to check any Unauthorized access (401) from site ***.example.org. Test case will fail only if 401 found from site ***.example.org in given log. In all other condition Test Case will PASS. For Detailed logs please refer Reporter Output Log" finished-at="2018-06-20T13:03:13Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Total 2 401 found from site ***.example.org . Failed to feed Rover. For detailed logs and information Please refer Reporter output log in TestNG report expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Total 2 401 found from site ***.example.org . Failed to feed Rover. For detailed logs and information Please refer Reporter output log in TestNG report expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.authorizedAccessTest(LogVerificationTest.java:77)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[********** Received 401 from : nx2.example.org at line number :24 in log
-Failed to feed Rover due to Unautorized access **********
-]]>
-            </line>
-            <line>
-              <![CDATA[********** Received 401 from : nx1.example.org at line number :32 in log
-Failed to feed Rover due to Unautorized access **********
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- authorizedAccessTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="authorizedAccessTest()[pri:2, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="authorizedAccessTest" duration-ms="1" started-at="2018-06-21T16:20:53Z" description="This Test is used to check any Unauthorized access (401) from site ***.example.org. Test case will fail only if 401 found from site ***.example.org in given log. In all other condition Test Case will PASS. For Detailed logs please refer Reporter Output Log" finished-at="2018-06-21T16:20:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[********** All access are authorized form and No 401 code was found in the given log from host "*.example.org" **********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorizedAccessTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="putBeforePostTest()[pri:3, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="putBeforePostTest" duration-ms="1" started-at="2018-06-20T13:03:13Z" description="This Test case is designed to check &quot;All POST requests to a path need to come after the PUT request for that path&quot;.The Test case will FAIL if 1) PUT request comes after POST for any given PATH for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For all all other conditions Test Case will PASS and print logs in Reporter Logs.For more Detailed log, Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="FAIL" signature="putBeforePostTest()[pri:3, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="putBeforePostTest" duration-ms="4" started-at="2018-06-21T16:20:53Z" description="This Test case is designed to check &quot;All POST requests to a path need to come after the PUT request for that path&quot;.The Test case will FAIL if 1) PUT request comes after POST for any given PATH for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For all all other conditions Test Case will PASS and print logs in Reporter Logs.For more Detailed log, Please refer Reporter Output log in TestNG Report" finished-at="2018-06-21T16:20:53Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failure Reason may be either of two.1) PUT to a given path observed after POST to a given path for one or more times in given log. 2) NO PUT Requset in log for POST request to a given path. For more Details Please refer Reporter Output log in TestNG Report expected [true] but found [false]]]>
@@ -146,7 +84,7 @@ at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.putBeforePostTest(LogVerificationTest.java:94)
+at com.apachelog.qa.test.LogVerificationTest.putBeforePostTest(LogVerificationTest.java:95)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -188,29 +126,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- putBeforePostTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="suspiciousActivityTest()[pri:4, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="suspiciousActivityTest" duration-ms="1" started-at="2018-06-20T13:03:13Z" description="This Test case is designed to check &quot;The log must have less than five 401 responses from any host.&quot; The Test case will FAIL if count of 401 Response CODE exceeds FIVE from any HOST in given log. For Detailed log ,Please refer Reporter Output log in TestNG Report" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="suspiciousActivityTest()[pri:4, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="suspiciousActivityTest" duration-ms="1" started-at="2018-06-21T16:20:53Z" description="This Test case is designed to check &quot;The log must have less than five 401 responses from any host.&quot; The Test case will FAIL if count of 401 Response CODE exceeds FIVE from any HOST in given log. For Detailed log ,Please refer Reporter Output log in TestNG Report" finished-at="2018-06-21T16:20:53Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Count for 401 staus code in given log is greater than 4.
- Actual is :9 Expected is less than : 5 expected [false] but found [true]]]>
+ Actual is :5 Expected is less than : 5 expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Count for 401 staus code in given log is greater than 4.
- Actual is :9 Expected is less than : 5 expected [false] but found [true]
+ Actual is :5 Expected is less than : 5 expected [false] but found [true]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:568)
-at com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest(LogVerificationTest.java:112)
+at com.apachelog.qa.test.LogVerificationTest.suspiciousActivityTest(LogVerificationTest.java:113)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -253,27 +191,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[********** httpStatusCode : 401 found in given log at line number : 19 from client host :company.com **********]]>
             </line>
             <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 24 from client host :nx2.example.org **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 32 from client host :nx1.example.org **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 37 from client host :1.2.3.4 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 41 from client host :1.2.3.4 **********]]>
-            </line>
-            <line>
-              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 44 from client host :4.3.2.1 **********]]>
+              <![CDATA[********** httpStatusCode : 401 found in given log at line number : 22 from client host :1.2.3.4 **********]]>
             </line>
           </reporter-output>
         </test-method> <!-- suspiciousActivityTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-20T13:03:13Z" finished-at="2018-06-20T13:03:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apachelog.qa.test.LogVerificationTest@be2bc2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-21T16:20:53Z" finished-at="2018-06-21T16:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

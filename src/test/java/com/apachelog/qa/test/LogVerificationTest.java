@@ -1,5 +1,6 @@
 /*
  * Author : Suchita Thakur
+
  * Project Name: ApacheLogsVerification Java project using Maven and TestNG
  * Description:	This class LogVerificationTest.java extends TestBase and Call Methods of Log Verifaction for each of below Test Cases.
  * Uses TestNG annotation to define Priority and Description ,

@@ -33,7 +33,8 @@ public class LogVerification extends TestBase{
 		for(Loop_var_Req_Line_No = 0;Loop_var_Req_Line_No<bytesReceived.size();Loop_var_Req_Line_No++)
     	{
     		try {
-				if (Integer.parseInt(bytesReceived.get(Loop_var_Req_Line_No)) >= 100000) {
+				//if (Integer.parseInt(bytesReceived.get(Loop_var_Req_Line_No)) >= 100000) fixed below
+					if (Integer.parseInt(bytesReceived.get(Loop_var_Req_Line_No)) > 100000) {
 					Big_Res_Byte_Count = Big_Res_Byte_Count + 1;
 					
 					Reporter.log("********** Response Byte greater than 100000 found :" + " Response byte size = "

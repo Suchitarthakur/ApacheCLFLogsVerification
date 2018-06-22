@@ -9,7 +9,6 @@
           <include name="setUp"/>
           <include name="suspiciousActivityTest"/>
           <include name="tearDown"/>
-          <include name="authorizedAccessTest"/>
         </methods>
       </class> <!-- com.apachelog.qa.test.LogVerificationTest -->
     </classes>
